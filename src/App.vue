@@ -5,7 +5,7 @@ let news = ref([])
 
 onMounted(async () => {
   news.value = await fetch(
-    'https://newsapi.org/v2/top-headlines?country=eg&apiKey=f38f357a9e7d4b7dbcc3ece56bb5041d'
+    'https://api.codetabs.com/v1/proxy?quest=https://newsapi.org/v2/top-headlines?country=eg&apiKey=f38f357a9e7d4b7dbcc3ece56bb5041d'
   )
     .then((response) => response.json())
     .then((data) => {
