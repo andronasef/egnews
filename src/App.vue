@@ -32,9 +32,10 @@ a {
   text-decoration: none;
 }
 
+
 @media (prefer-color-scheme : dark) {
-  body {
-    background-color: #5a5a5a;
+  :not(div.img) {
+    filter: invert(100%);
   }
 }
 
