@@ -7,6 +7,7 @@ import presetWind from '@unocss/preset-wind'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/egnews/",
   plugins: [
     Unocss({
       presets: [
