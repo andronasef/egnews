@@ -1,0 +1,24 @@
+{
+  "name": "egnews",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@unocss/preset-uno": "^0.33.0",
+    "@unocss/preset-wind": "^0.33.0",
+    "@vitejs/plugin-vue": "^2.3.2",
+    "typescript": "^4.6.4",
+    "unocss": "^0.33.0",
+    "unplugin-auto-import": "^0.7.1",
+    "unplugin-vue-components": "^0.19.3",
+    "vite": "^2.9.8",
+    "vue-tsc": "^0.34.11"
+  }
+}
