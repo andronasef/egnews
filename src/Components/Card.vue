@@ -18,7 +18,7 @@ const imgPlaceholder =
   <div
     class="bg-white rounded-xl overflow-hidden shadow-lg max-w-md mx-auto h-full md:max-w-2xl transform transition  active:scale-95 hover:scale-105"
     :class="index % 2 == 0 ? 'hover:-rotate-1' : 'hover:rotate-1'">
-    <a class="h-full md:flex" :href="url">
+    <a target="_blank" class="h-full md:flex" :href="url">
       <div class="p-8">
         <div class="uppercase tracking-wide text-sm text-$color font-semibold">
           {{ author == null ? "" : author.length < 30 ?  author : ""  }}
