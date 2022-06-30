@@ -21,7 +21,7 @@ const imgPlaceholder =
     <a class="h-full md:flex" :href="url">
       <div class="p-8">
         <div class="uppercase tracking-wide text-sm text-$color font-semibold">
-          {{ author }}
+          {{ author == null ? "" : author.length < 30 ?  author : ""  }}
         </div>
         <div class="block mt-1 leading-tight font-medium text-black hover:underline">
           <h2 class="font-semibold text-xl">{{ title }}</h2>
